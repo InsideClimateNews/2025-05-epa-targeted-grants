@@ -1,6 +1,6 @@
 # Analysis of programs and grants targeted for termination by US Environmental Protection Agency
 
-Data, methodology and [R](https://www.r-project.org/) code for the analysis underlying [this Inside Climate News article]().
+Data, methodology and [R](https://www.r-project.org/) code for the analysis underlying [this Inside Climate News article](https://insideclimatenews.org/news/01052025/trump-epa-funding-cuts-target-disadvantaged-communities/).
 
 Code for the analysis is in the script `epa_grants.R`, which processes the CSV file in the `data` folder, downloaded for a search at the [USAspending](https://www.usaspending.gov/) database for all grants under programs listed as "slated to be terminated" in [this April 23, 2025 court filing](https://www.documentcloud.org/documents/25919517-epa-court-filing-april-23-2025/) from the Environmental Protection Agency.
 
