@@ -2,7 +2,7 @@
 
 Data, methodology and [R](https://www.r-project.org/) code for the analysis underlying [this Inside Climate News article]().
 
-Code for the analysis is in the script `epa_grants.R`, which processes the CSV file in the `data` folder, downloaded for a search at the [USAspending](https://www.usaspending.gov/) database for all grants under programs listed as "slated to be terminated" in [this April 23, 2025 court filing](https://www.documentcloud.org/documents/25919517-epa-court-filing-april-23-2025/) from the Environmental Protection Agency.
+Code for the analysis is in the script `epa_grants.R`, which processes the CSV file in the `data` folder, downloaded from a search at the [USAspending](https://www.usaspending.gov/) database for all grants under programs listed as "slated to be terminated" in [this April 23, 2025 court filing](https://www.documentcloud.org/documents/25919517-epa-court-filing-april-23-2025/) from the Environmental Protection Agency.
 
 The script filters the data for grants for those that had not passed their end date by Feb. 13, when EPA administrator Lee Zeldin began targeting the programs for termination, and joins to [data](https://clerk.house.gov/Members/ExcelMemberData) downloaded from the Clerk of the U.S. House of Representatives to facilitate analyses by congressional district, member and their parties.
 
